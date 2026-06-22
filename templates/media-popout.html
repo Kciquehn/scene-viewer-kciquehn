@@ -1,0 +1,7 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+    {{#if isVideo}}
+        <video autoplay loop muted playsinline src="{{src}}"></video>
+    {{else}}
+        <div class="lightbox-image" style="background-image: url('{{src}}')" title="{{title}}"></div>
+    {{/if}}
+</form>

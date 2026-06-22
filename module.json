@@ -1,0 +1,36 @@
+{
+  "id": "scene-viewer",
+  "title": "Compendium Scene Viewer",
+  "description": "Allows scenes in a compendium to be viewed without importing",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "BadIdeasBureau"
+    }
+  ],
+  "esmodules": [
+    "scripts/settings.js",
+    "scripts/scene-viewer.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português do Brasil",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "socket": true,
+  "url": "This is auto replaced",
+  "manifest": "This is auto replaced",
+  "download": "This is auto replaced",
+  "bugs": "This is auto replaced",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  }
+}

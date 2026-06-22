@@ -1,0 +1,10 @@
+{
+    "SCENE_VIEWER.Loading.Title": "Carregando",
+    "SCENE_VIEWER.Loading.Content": "Carregando imagem da cena",
+
+    "SCENE_VIEWER.Settings.ClosePrevious": "Fechar outras janelas pop-up",
+    "SCENE_VIEWER.Settings.Hints.ClosePrevious": "Ao pré-visualizar uma cena, fecha as outras janelas pop-up deste módulo.",
+
+    "SCENE_VIEWER.NoImage": "Visualizador de Cenas do Compêndio | Esta cena não possui imagem de fundo."
+
+}
