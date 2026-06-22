@@ -1,11 +1,14 @@
 {
   "id": "scene-viewer",
   "title": "Compendium Scene Viewer",
-  "description": "Allows scenes in a compendium to be viewed without importing",
+  "description": "Preview scenes stored in compendiums without importing them into your world. Right-click any scene entry in an open compendium and select View to instantly see the full map in a popout window.",
   "version": "2.0.0",
   "authors": [
     {
       "name": "BadIdeasBureau"
+    },
+    {
+      "name": "Kciquehn"
     }
   ],
   "esmodules": [
@@ -17,18 +20,13 @@
       "lang": "en",
       "name": "English",
       "path": "lang/en.json"
-    },
-    {
-      "lang": "pt-BR",
-      "name": "Português do Brasil",
-      "path": "lang/pt-BR.json"
     }
   ],
   "socket": true,
-  "url": "This is auto replaced",
-  "manifest": "https://github.com/Kciquehn/scene-viewer/blob/main/module.json",
-  "download": "This is auto replaced",
-  "bugs": "This is auto replaced",
+  "url": "https://github.com/Kciquehn/scene-viewer",
+  "manifest": "https://raw.githubusercontent.com/Kciquehn/scene-viewer/main/module.json",
+  "download": "https://github.com/Kciquehn/scene-viewer/archive/refs/heads/main.zip",
+  "bugs": "https://github.com/Kciquehn/scene-viewer/issues",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
