@@ -28,7 +28,11 @@ Hooks.once("ready", () => {
             break;
         }
     }
-    if (!Target) Target = globalThis.Compendium ?? null;
+
+    // Fallback v13: usa o namespace correto em vez do global deprecado
+    if (!Target) {
+        Target = foundry.applications.sidebar.apps.Compendium ?? null;
+    }
 
     if (!Target) {
         console.warn("scene-viewer | Could not find Compendium class to patch.");
