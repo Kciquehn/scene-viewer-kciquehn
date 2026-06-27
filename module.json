@@ -2,7 +2,7 @@
   "id": "scene-viewer",
   "title": "Compendium Scene Viewer",
   "description": "Preview scenes stored in compendiums without importing them into your world. Right-click any scene entry in an open compendium and select View to instantly see the full map in a popout window.",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "authors": [
     {
       "name": "BadIdeasBureau"
